@@ -1,4 +1,3 @@
-# defense
 # Visitors-and-Corona-Virus-Infected
 
 The goal of this project is to visualize military spending of countries.
