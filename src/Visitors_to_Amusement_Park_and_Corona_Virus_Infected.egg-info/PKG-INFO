@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: Visitors-to-Amusement-Park-and-Corona-Virus-Infected
+Version: 0.0.1
+Summary: A package for visualizing military spending of up to 4 countries
+Home-page: https://github.com/ritakei/VisitorsandCOVID
+Author: rinko takei
+Author-email: rtakei@sciencepark.co.jp
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ritakei/VisitorsandCOVID
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# defense
+# Visitors-and-Corona-Virus-Infected
+
+The goal of this project is to visualize military spending of countries.
+
+Using a SIPRI dataset, milspend can visualize military spending of up to four countries.
+
+The SIPRI dataset is downloadable from:
+
+https://sipri.org/sites/default/files/SIPRI-Milex-data-1949-2020_0.xlsx
+
+The number of the vertical axis indicates the US dollars in millions.
+
+#<img src='https://github.com/ytakefuji/defense/raw/main/result.png' width=640 height=480>
+
+# How to install Visitors-and-Corona-Virus-Infected
+You may need matplotlib library.
+
+$ pip install matplotlib
+
+$ pip install VandC
+
+# How to run Visitors-and-Corona-Virus-Infected
+Milspend program allows user to specify up to four countries to plot military spending of the specified countries.
+For example, the following command can display military spending of the US, China, Russia and Japan in the graph.
+
+$ 
+
+#<img src='https://github.com/ytakefuji/defense/raw/main/uscnrujp.png' height=480 width=640>
+The following command can display military spending of Japan and South Korea.
+
+
+
