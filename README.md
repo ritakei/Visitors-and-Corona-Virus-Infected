@@ -1,10 +1,10 @@
 # Visitors-and-Corona-Virus-Infected
 
-The goal of this project is to visualize military spending of countries.
+This project compares the number of amusement park visitors with COVID infected people.
 
-Using a SIPRI dataset, milspend can visualize military spending of up to four countries.
+Using a newly_confirmed_cases_daily.xlsx and park_visitor.xlsx, VandC is a line graph.
 
-The SIPRI dataset is downloadable from:
+The newly_confirmed_cases_daily.xlsx and park_visitor.xlsx dataset is downloadable from:
 
 https://github.com/ritakei/VisitorsandCOVID/blob/main/newly_confirmed_cases_daily.xlsx
 https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx
