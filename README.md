@@ -20,7 +20,7 @@ $ pip install matplotlib
 
 $ pip install pandas
 
-$ pip install openxls
+$ pip install openpyxl
 
 # How to run Visitors-and-Corona-Virus-Infected
 The VandC program allows you to plot the number of visitors to amusement parks in Japan and the number of people infected with COVID from January 2020 to March 2022.
