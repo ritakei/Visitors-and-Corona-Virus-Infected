@@ -73,7 +73,7 @@ def main():
     ax_log.plot(df_cov_month["cov_num"],'r.-',label='cases')
 
     ax_log.set_xlabel("Month")
-    ax_log.set_xticks([0,5,10,15,20,25], ['20.1','20.6','20.11','21.4','21.9','22.2'])
+    ax_log.set_xticks([0,1,2,3,4,5,6,7,8,9,10,15,20,25], ['20.1','20.2','20.3','20.4','20.5','20.6','20.7','20.8','20.9','20.10','20.11','21.4','21.9','22.2'])
 
     ax_log.set_ylabel("Visitors and COVID infected person")
     ax_log.set_yscale('log')
