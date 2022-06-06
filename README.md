@@ -11,7 +11,7 @@ https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx
 
 The vertical axis is an integer and log display.
 
-<img src='https://github.com/ritakei/VisitorsandCOVID/blob/main/park.png' width=640 height=480>
+<img src='https://github.com/ritakei/VisitorsandCOVID/blob/main/park.png?raw=true' width=640 height=480>
 
 # How to install Visitors-and-Corona-Virus-Infected
 You may need some libraries.
