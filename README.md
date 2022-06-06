@@ -6,25 +6,26 @@ Using a SIPRI dataset, milspend can visualize military spending of up to four co
 
 The SIPRI dataset is downloadable from:
 
-https://sipri.org/sites/default/files/SIPRI-Milex-data-1949-2020_0.xlsx
+https://github.com/ritakei/VisitorsandCOVID/blob/main/newly_confirmed_cases_daily.xlsx
+https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx
 
 The number of the vertical axis indicates the US dollars in millions.
 
-#<img src='https://github.com/ytakefuji/defense/raw/main/result.png' width=640 height=480>
+<img src='https://github.com/ritakei/VisitorsandCOVID/blob/main/park.png' width=640 height=480>
 
 # How to install Visitors-and-Corona-Virus-Infected
-You may need matplotlib library.
+You may need some libraries.
 
 $ pip install matplotlib
 
-$ pip install VandC
+$ pip install pandas
+
+$ pip install openxls
 
 # How to run Visitors-and-Corona-Virus-Infected
-Milspend program allows user to specify up to four countries to plot military spending of the specified countries.
-For example, the following command can display military spending of the US, China, Russia and Japan in the graph.
+The VandC program allows you to plot the number of visitors to amusement parks in Japan and the number of people infected with COVID from January 2020 to March 2022.
 
-$ 
+$ pip install VandC
 
-#<img src='https://github.com/ytakefuji/defense/raw/main/uscnrujp.png' height=480 width=640>
-The following command can display military spending of Japan and South Korea.
-
+The following command can display a VandC line graph with.
+There are no options.
