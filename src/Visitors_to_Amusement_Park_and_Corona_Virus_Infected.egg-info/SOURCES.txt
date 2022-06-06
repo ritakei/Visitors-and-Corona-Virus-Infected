@@ -1,8 +1,0 @@
-README.md
-setup.cfg
-setup.py
-src/Visitors_to_Amusement_Park_and_Corona_Virus_Infected.egg-info/PKG-INFO
-src/Visitors_to_Amusement_Park_and_Corona_Virus_Infected.egg-info/SOURCES.txt
-src/Visitors_to_Amusement_Park_and_Corona_Virus_Infected.egg-info/dependency_links.txt
-src/Visitors_to_Amusement_Park_and_Corona_Virus_Infected.egg-info/entry_points.txt
-src/Visitors_to_Amusement_Park_and_Corona_Virus_Infected.egg-info/top_level.txt
