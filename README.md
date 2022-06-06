@@ -9,7 +9,7 @@ The newly_confirmed_cases_daily.xlsx and park_visitor.xlsx dataset is downloadab
 https://github.com/ritakei/VisitorsandCOVID/blob/main/newly_confirmed_cases_daily.xlsx
 https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx
 
-The number of the vertical axis indicates the US dollars in millions.
+The vertical axis is an integer and log display.
 
 <img src='https://github.com/ritakei/VisitorsandCOVID/blob/main/park.png' width=640 height=480>
 
