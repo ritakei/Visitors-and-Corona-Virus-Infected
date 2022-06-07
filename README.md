@@ -26,6 +26,7 @@ $ pip install openpyxl
 The VandC program allows you to plot the number of visitors to amusement parks in Japan and the number of people infected with COVID from January 2020 to March 2022.
 
 $ pip install VisitorsandCOVID
+& VisitorsandCOVID
 
 The following command can display a VandC line graph with.
 There are no options.
