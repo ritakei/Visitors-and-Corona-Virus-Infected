@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: VisitorsandCOVID
-Version: 0.0.3
+Version: 0.0.4
 Summary: This project compares the number of amusement park visitors with COVID infected people.
 Home-page: https://github.com/ritakei/VisitorsandCOVID
 Author: rinko takei
@@ -27,7 +27,7 @@ https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx
 
 The vertical axis is an integer and log display.
 
-<img src='https://github.com/ritakei/VisitorsandCOVID/blob/main/park.png' width=640 height=480>
+<img src='https://github.com/ritakei/VisitorsandCOVID/blob/main/park.png?raw=true' width=640 height=480>
 
 # How to install Visitors-and-Corona-Virus-Infected
 You may need some libraries.
