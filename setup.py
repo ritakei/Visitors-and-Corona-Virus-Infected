@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="VisitorsandCOVID",
-    version="0.0.7",
+    version="0.0.8",
     author="rinko takei",
     author_email="rtakei@sciencepark.co.jp",
     description="This project compares the number of amusement park visitors with COVID infected people.",

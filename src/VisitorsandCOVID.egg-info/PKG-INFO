@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: VisitorsandCOVID
-Version: 0.0.6
+Version: 0.0.7
 Summary: This project compares the number of amusement park visitors with COVID infected people.
 Home-page: https://github.com/ritakei/VisitorsandCOVID
 Author: rinko takei
@@ -15,7 +15,7 @@ Requires-Python: >=3.8.5
 Description-Content-Type: text/markdown
 
 # Visitors-and-Corona-Virus-Infected
-[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)]([https://codeocean.com/capsule/e14c55c9-376c-4ece-8d3b-50c7aebe4c23/tree])
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)]([https://codeocean.com/capsule/2389739/tree])
 
 This project compares the number of amusement park visitors with COVID infected people.
 
@@ -46,7 +46,7 @@ $ pip install VisitorsandCOVID
 
 $VisitorsandCOVID
 
-The following command can display a VandC line graph with.
+The following command can display a VisitorsandCOVID line graph with.
 There are no options.
 
 
