@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="VisitorsandCOVID",
-    version="0.0.4",
+    version="0.0.5",
     author="rinko takei",
     author_email="rtakei@sciencepark.co.jp",
     description="This project compares the number of amusement park visitors with COVID infected people.",
@@ -23,7 +23,7 @@ setuptools.setup(
     package_dir={"": "src"},
     py_modules=['VisitorsandCOVID'],
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.10.4",
+    python_requires=">=3.8.5",
     entry_points = {
         'console_scripts': [
             'VisitorsandCOVID = VisitorsandCOVID:main'
