@@ -1,8 +1,11 @@
+import subprocess as sp
 from turtle import right
 import pandas as pd
 import matplotlib.pyplot as plt
 import openpyxl
 
+sp.call("wget https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx",shell=True)
+sp.call("wget https://github.com/ritakei/VisitorsandCOVID/blob/main/newly_confirmed_cases_daily.xlsx",shell=True)
 def printer(data) -> None:#データ繰り返し表示
     for row in data:
         for cell in row:
