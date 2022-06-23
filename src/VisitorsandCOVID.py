@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import openpyxl
 
-sp.call("wget --secure-protocol=TLSv1 https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx",shell=True)
-sp.call("wget --secure-protocol=TLSv1 https://github.com/ritakei/VisitorsandCOVID/blob/main/newly_confirmed_cases_daily.xlsx",shell=True)
+sp.call("wget --no-check-certificate https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ritakei/VisitorsandCOVID/main/src/park_visitor.xlsx&wdOrigin=BROWSELINK || wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx",shell=True)
+sp.call("wget --no-check-certificate https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ritakei/VisitorsandCOVID/main/src/newly_confirmed_cases_daily.xlsx&wdOrigin=BROWSELINK || wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/blob/main/newly_confirmed_cases_daily.xlsx",shell=True)
 def printer(data) -> None:#データ繰り返し表示
     for row in data:
         for cell in row:
