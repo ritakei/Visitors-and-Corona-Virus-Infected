@@ -28,7 +28,7 @@ The VandC program allows you to plot the number of visitors to amusement parks i
 
 $ pip install VisitorsandCOVID
 
- VisitorsandCOVID
+$VisitorsandCOVID
 
 The following command can display a VandC line graph with.
 There are no options.
