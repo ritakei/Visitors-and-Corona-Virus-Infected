@@ -5,10 +5,7 @@ import matplotlib.pyplot as plt
 import openpyxl
 import os
 
-if not os.path.exists('park_visitor.xlsx'):
-    sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/park_visitor.xlsx",shell=True)
-if not os.path.exists('newly_confirmed_cases_daily.xlsx'):
-    sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/newly_confirmed_cases_daily.xlsx",shell=True)
+
     
 def printer(data) -> None:#データ繰り返し表示
     for row in data:
@@ -27,6 +24,13 @@ def listin(data) -> None:#リスト
     return l
 
 def main():   
+
+    #wget
+    if not os.path.exists('park_visitor.xlsx'):
+        sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/park_visitor.xlsx",shell=True)
+    if not os.path.exists('newly_confirmed_cases_daily.xlsx'):
+        sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/newly_confirmed_cases_daily.xlsx",shell=True)
+
     #openpyxl           
     # Excel読み込み
     visitor_wb = openpyxl.load_workbook("park_visitor.xlsx")
