@@ -27,9 +27,14 @@ def main():
 
     #wget
     if not os.path.exists('park_visitor.xlsx'):
-        sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/park_visitor.xlsx",shell=True)
+        #sp.call("wget https://github.com/ritakei/VisitorsandCOVID/raw/main/park_visitor.xlsx",shell=True)
+        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/VisitorsandCOVID/raw/main/park_visitor.xlsx" ,shell=True)
+        visitor_wb = openpyxl.load_workbook("park_visitor.xlsx")
+        
     if not os.path.exists('newly_confirmed_cases_daily.xlsx'):
-        sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/newly_confirmed_cases_daily.xlsx",shell=True)
+        #sp.call("wget https://github.com/ritakei/VisitorsandCOVID/raw/main/newly_confirmed_cases_daily.xlsx",shell=True)
+        sp.call("curl -tlsv1.2 -v -O -L https://github.com/ritakei/VisitorsandCOVID/raw/main/newly_confirmed_cases_daily.xlsx" ,shell=True)
+        daily_cases_wb = openpyxl.load_workbook("newly_confirmed_cases_daily.xlsx")
 
     #openpyxl           
     # Excel読み込み
