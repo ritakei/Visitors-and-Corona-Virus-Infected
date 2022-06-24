@@ -3,9 +3,13 @@ from turtle import right
 import pandas as pd
 import matplotlib.pyplot as plt
 import openpyxl
+import os
 
-sp.call("wget --no-check-certificate https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ritakei/VisitorsandCOVID/main/src/park_visitor.xlsx&wdOrigin=BROWSELINK || wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/blob/main/park_visitor.xlsx",shell=True)
-sp.call("wget --no-check-certificate https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/ritakei/VisitorsandCOVID/main/src/newly_confirmed_cases_daily.xlsx&wdOrigin=BROWSELINK || wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/blob/main/newly_confirmed_cases_daily.xlsx",shell=True)
+if not os.path.exists('park_visitor.xlsx'):
+    sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/park_visitor.xlsx",shell=True)
+if not os.path.exists('newly_confirmed_cases_daily.xlsx'):
+    sp.call("wget --no-check-certificate https://github.com/ritakei/VisitorsandCOVID/raw/main/newly_confirmed_cases_daily.xlsx",shell=True)
+    
 def printer(data) -> None:#データ繰り返し表示
     for row in data:
         for cell in row:
