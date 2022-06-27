@@ -1,6 +1,7 @@
 # Visitors-and-Corona-Virus-Infected
-[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)]([https://codeocean.com/capsule/2389739/tree])
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)]([https://codeocean.com/capsule/0052564/tree/v1])
 
+https://codeocean.com/capsule/0052564/tree/v1
  DOI  10.24433/CO.2389739.v1
 
 This project compares the number of amusement park visitors with COVID infected people.
