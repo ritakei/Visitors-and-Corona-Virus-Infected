@@ -1,7 +1,5 @@
 # Visitors-and-Corona-Virus-Infected
-[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)]([https://codeocean.com/capsule/64ca0222-39ff-4503-a2fe-2cfd67e465a9/])
-
-https://codeocean.com/capsule/64ca0222-39ff-4503-a2fe-2cfd67e465a9/
+[![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/2389739/tree) 
 
 https://codeocean.com/capsule/0052564/tree/v1
  DOI  10.24433/CO.2389739.v1
